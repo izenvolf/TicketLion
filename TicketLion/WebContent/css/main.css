@@ -1,0 +1,646 @@
+@CHARSET "UTF-8";
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css); 
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.clear{
+	clear: both;
+}
+div#top{
+	height:400px;
+	padding:0;
+	margin:0;
+	z-index: 0;
+	position: relative;
+}
+
+div#top_frame{
+	height: 400px;
+	background-size: cover;
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+}
+
+ul#photo_list{
+	margin-left: 700px;
+	width: 300px;
+	height: 400px;
+	padding:0;
+	margin-top: 25px;
+
+}
+
+li#photo_object{
+	
+	list-style: none;
+	width: 90px;
+	height: 100px;
+	float: left;
+	padding: 0;
+	margin-bottom: -10px;
+	
+	
+
+}
+li#photo_object img{
+	width: 80px;
+	height: 80px;
+	
+}
+
+li#photo_object img:HOVER {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+img#top_button{
+	
+	float: left;
+	width: 105px;
+	height: 33px;
+	margin: 340px 0px 0px 490px;
+}
+img#top_button:HOVER {
+		cursor: pointer;
+}
+/*-------------------------------------------- */
+div#mid{
+	width: 1000px;
+	font-family: 'Jeju Gothic', sans-serif; 
+}
+div#category{
+	width: 960px;
+	/* height: 420px; */
+}
+div#subject{
+	width: 960px;
+	height: 80px;
+
+}
+div#subject_left{
+	width:280px;
+	height: 80px;
+	background-image: url("../icons/subject_left.jpg");
+	display:inline-block;
+	float:left;
+	margin-top: 1px;
+}
+div#subject_center{
+	width:400px;
+	height: 80px;
+	display:inline-block;
+	float:left;
+
+
+}
+
+div#subject_center div{
+	width:150px;
+	height: 60px;
+	
+	color: #6f6f6f;
+	font-size: 30px;
+	margin-top:25px;
+}
+
+
+/*width:200px으로 수정*/
+div#subject_center div{
+	width:200px;
+	height: 60px;
+	
+	color: #6f6f6f;
+	font-size: 30px;
+	margin-top:25px;
+
+}
+
+div#subject_right{
+	width:280px;
+	height: 80px;
+	margin-top: 1px;
+	background-image: url("../icons/subject_right.jpg");
+	display:inline-block;
+	
+}
+
+img#content{
+	width:225px;
+	height: 340px;
+	margin-left:5px;
+	margin-right:5px;
+	
+}
+
+img#content:HOVER{
+	cursor: pointer;
+}
+
+
+
+div#contents_mo, div#contents_mu{
+	width: 940px;
+	height: 360px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+
+ul.contents_mo, ul.contents_mu{
+	width: 100%;
+	height: 350px;
+	position: absolute;
+	top:0;
+	left:0;
+	
+}
+
+ul.contents_mo li, ul.contents_mu li{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+div#content_body{
+	width:100%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+div#btn{
+	position: absolute;
+	top: 1350px;
+	width: 980px;
+	z-index: 3;
+	
+}
+
+div#btn_2{
+	position: absolute;
+	top: 1800px;
+	width: 980px;
+	z-index: 3;
+}
+
+div#btn img,div#btn_2 img{
+		position: absolute;
+	
+}
+div#btn img,div#btn_2 img:HOVER{
+	cursor: pointer;
+	
+}
+
+img#next_btn_mo, img#next_btn_mu{
+	left:100%;
+}
+
+
+div#btn_div{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/* s: 랭킹 */
+
+#rank{
+/* 	border: solid red 1px; */
+	width:960px;
+	height:250px;
+}
+
+#rank_title{
+	
+	width:170px;
+	height: 35px;
+	
+	font-weight: 200;
+    font-size: 30px;
+    color: #3a3a3a;
+    
+	margin-top:25px;
+	float: left;
+	
+	
+}
+
+#rank_head{
+	width:300px;
+	height: 27px;
+	
+	color: #6f6f6f;
+	
+	font-size: 17px;
+	margin-top:35px;
+	float: left;
+	cursor: pointer;
+	
+}
+
+
+
+
+
+#rank_img{
+	float: right;
+	margin-top: 30px;
+	cursor: pointer;
+	
+}
+
+#rank_hr{
+	width:960px;
+	border-top: solid 1px #c0c0c0;
+	
+	float: left;
+	margin-bottom: 20px;
+}
+
+span#bar{
+	margin-right: 5px;
+	margin-left: 5px;
+	
+}
+
+#rank_box{
+	
+	width:960px;
+	height:235px;
+	float:left;
+	
+}
+
+#rank_box a{
+	width:140px;
+	height:200px;
+	float:left;
+	
+	color: #6f6f6f;
+	font-size: 13px;
+	margin-top:10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+
+
+p{
+	margin-top: 10px;
+	font-family:  "Nanum Gothic","Malgun Gothic";  
+	font-weight: bolder;
+	
+}
+
+.rank_img{
+	border: solid 1px #cfcfcf;
+}
+
+/* e: 랭킹 */
+
+/* S: 티켓오픈 */
+#open{
+	
+	width:470px;
+	height:260px;
+	font-weight: 200;
+    font-size: 21px;
+    color: #3a3a3a;
+    padding-left:20px;
+    float: left;   
+}
+
+#open_title{
+	width:150px;
+	height:25px;
+	float: left;
+	
+}
+
+#open_box{
+	width:470px;
+    height:208px;
+    background-image: url("../img/TicketOpenBanner.png"); 
+    margin-top: 10px;
+    border: solid 1px #cfcfcf;
+    font-size: 10px;
+}
+
+.open_img{
+	width:50px;
+    height:20px;
+    margin-top: 42px;
+    margin-left:170px;
+    float: left;
+    cursor: pointer;
+	
+}
+
+#open_info{
+	font-family:  "Nanum Gothic","Malgun Gothic";   
+	font-weight: bold; 
+	width: 210px;
+	height:20px;
+	font-size:13px;
+	float: left;
+}
+
+
+
+#open_hr{
+	width:470px;
+	
+}
+
+#open li a{
+	height:17px;
+}
+
+#open li a:HOVER{
+	color: #ff7d52;
+	text-decoration: none;
+	font-weight: lighter;
+}
+
+#open a:LINK{
+	font-weight:normal;
+	color: #6f6f6f;
+	font-weight: lighter;
+}
+
+#open a:VISITED{
+	color: #6f6f6f;
+	font-weight: lighter;
+}
+
+
+/* e: 티켓오픈 끝*/
+
+/* s : 뉴스 인터뷰 */
+
+#news {
+	
+	width:470px;
+	height:260px;
+	font-weight: 200;
+    font-size: 21px;
+    color: #3a3a3a;
+    padding-right:20px;
+    float: right;   
+}
+
+#news_title{
+	
+	width:220px;
+	height:25px;
+	float: left;
+	
+}
+
+#news_box{
+	width:470px;
+    height:208px;
+    font-family:  "Nanum Gothic","Malgun Gothic";  
+    margin-top: 10px;
+    border: solid 1px #cfcfcf;
+    background-image: url("../img/news.png");
+}
+
+#news_img{
+	float: right;
+	margin-top: 5px;
+	cursor: pointer;
+	
+}
+
+
+.news_list1{
+	padding-left: 25px;
+	width:300px;
+	margin: 40px 10px 40px;
+	font-size:20px;
+	font-weight: bolder;
+	color:#ff7d52;
+	float: left;
+	font-weight: 100;
+	
+}
+
+.news_list2{
+	padding-left: 25px;
+	width:300px;
+	margin: 0 10px 50px;
+	font-size:15px;	
+	color:#3a3a3a;
+	float: left;
+}
+
+.news_list2 sapn{
+	font-size:18px;	
+}
+
+
+
+/*
+.news_list2 li a{
+	width:220px;
+	line-height: 25px;
+	text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    word-wrap: normal !important;
+    display: block;
+    color:#3a3a3a;
+}
+
+.news_list2 li a:HOVER{
+	text-decoration: underline;
+}
+
+*/
+
+/* e : 뉴스 인터뷰 끝*/
+
+
+/* S: 이 주의 상영작 */
+
+div#category_week{
+	width: 980px;
+	height: 980px;
+	
+}
+
+div#weekBox1{
+	border:solid 1px #cfcfcf;
+	width: 960px;
+	height: 330px;
+	margin-bottom: 20px;
+	
+}
+
+div#weekBox2{
+	
+/* 	border: solid 1px #cfcfcf; */
+	width: 980x;
+	height: 340px;
+	margin-bottom: 20px;
+	
+}
+
+div#weekBox3{
+	
+	width: 960px;
+	height: 150px;
+	padding-right: 1px;
+	
+}
+
+.week_smallbox{
+	float:left;
+}
+
+
+img#content_w{
+	width:225px;
+	height: 340px;
+	margin-left:9px;
+	margin-right:8px;
+	border: solid 1px #cfcfcf;
+	
+}
+
+
+img#content_w:HOVER{
+	cursor: pointer;
+}
+
+/* E: 이 주의 상영작*/
+
+
+
+
+/*------------------------------------------------------------  */
+div#bottom{
+	margin-top: 30px;
+	height: 320px;
+	
+
+}
+div#schedule_musical{
+	height: 320px;
+	background-color: #dedede;
+	position: relative;
+	
+}
+
+div#sche_mu_object{
+	width:960px;
+	height: 300px;
+	padding: 0;
+	margin: 0;
+		
+}
+ul#sche_mu_cate{
+	width: 300px;
+	height:50px;
+	margin: 0 auto;
+	
+}
+
+ul#sche_mu_cate li{
+	width: 150px;
+	height: 50px;
+	line-height: 3em;
+	list-style: none;
+	float: left;
+	color:#333;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+ul#sche_mu_cate li:HOVER{
+	color:#f43700;
+	cursor: pointer;
+	
+
+}
+
+#last{
+}
+
+ul#sche_mu_content{
+	width: 960px;
+	height:260px;
+	margin: 0;
+	padding: 0;
+	
+}
+
+ul#sche_mu_content li{
+	float:left;
+	list-style: none;
+}
+
+
+
+ul#sche_mu_content img{
+	width: 152px;
+	height: 210px;
+	margin: 0 20px;;
+	
+}
+
+ul#sche_mu_content img:HOVER{
+	
+	cursor: pointer;
+}
+
+ul#sche_mu_content div#open_day{
+	width:152px;
+	margin: 0  20px;
+	color:#333;	
+	font-size: 13px;
+}
+
+ul#sche_mu_content div#name{
+	width:152px;
+	margin: 0  20px;
+	color:#333;
+	font-weight: bold;
+	font-size: 14px;
+	
+}
+div#open_day:HOVER, div#name:HOVER{
+	text-decoration: underline;
+	cursor: pointer;
+	
+}
+
+div#popup{
+   position: absolute;
+   background-color:#fff;
+   top: 200px;
+   left: 25px;
+   width: 439px;
+   height: 330px;
+   z-index: 3;
+   border: 2px windowtext;
+   border-radius: 5px;
+   padding: 15px 10px 2px 10px;
+   cursor: pointer;
+}
+
+#pop1 {
+	margin-right: 5px;
+	font-family: 
+}
+
+
+div#noshow{
+   margin-top: 10px;
+   cursor: pointer;
+   font-size: 12px;
+}
+
