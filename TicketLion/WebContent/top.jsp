@@ -50,7 +50,12 @@ $(document).ready(function(){ //검색 기능
       var search=$('#search_bar2_1').val();
       if(search == ""){
          alert("검색어를 입력해주세요;");
-      }else{
+      }else if(search.length<2){
+     	 alert("2글자 이상입력해주세요.");
+      }else if(search.indexOf("(")!=-1 || search.indexOf(")")!=-1){
+    	  alert("(   또는   )기호는 사용할 수 없습니다.");  
+      }
+      else{
          location.href="./index.jsp?center=search.jsp&search="+search;
       }
    });
@@ -60,6 +65,10 @@ $(document).ready(function(){ //검색 기능
          var search=$('#search_bar2_1').val();
          if(search==""){
             alert("검색어를 입력해주세요;");
+         }else if(search.length<2){
+        	 alert("2글자 이상입력해주세요.");
+         }else if(search.indexOf("(")!=-1 || search.indexOf(")")!=-1){
+       		  alert("(   또는   )기호는 사용할 수 없습니다.");  
          }else{
             location.href="./index.jsp?center=search.jsp&search="+search;
          }

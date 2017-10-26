@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=utf-8"
+<%@page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>        
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -49,8 +49,6 @@ a#MOVE_TOP_BTN {
 <a id="MOVE_TOP_BTN" href="#"><img src="img/top_btn1.png" width="56px" ></a>
 
 <c:set var="center" value="${param.center }"/>
-
-
 
 
 <c:if test="${center==null }">

@@ -321,6 +321,8 @@ function calendars(move){
         	
         	if(nMonth*1+1 < 10)
         		month = "0"+(nMonth*1+1);
+        	else 
+        		month=nMonth*1+1;
         	if(i<10)
         		day = "0"+i;
         	else
